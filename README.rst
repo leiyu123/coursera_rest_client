@@ -1,7 +1,7 @@
 coursera.org Python API client library
 ==================================
 
-oursera_rest api Python client library.
+Coursera rest api Python client library.
 
 
 For more information about the API and the return values, visit the `official documentation`_.
