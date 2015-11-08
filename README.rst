@@ -14,27 +14,27 @@ Sample API call
    courseclient=CourseraClient()
    response=courseclient.get_courses()
 
-#. **Search Couses with mutiple Id**::
+#. **Search Courses with mutiple Id**::
 
    courseclient=CourseraClient()
    response=courseclient.get_courses(id=[247,256])
 
-#. **Search Couses by Id**::
+#. **Search Courses by Id**::
 
    courseclient=CourseraClient()
    response=courseclient.get_courses(id=[247])
 
-#. **Search Couses with more fields**::
+#. **Search Courses with more fields**::
 
    courseclient=CourseraClient()
    response=courseclient.get_courses(field=['name','language','photo','previewLink'])
 
-#. **Search Couses with linked object**::
+#. **Search Courses with linked object**::
 
    courseclient=CourseraClient()
    response=courseclient.get_courses(include=['sessions','instructors'])
 
-#. **Search Couses by name**::
+#. **Search Courses by name**::
 
    courseclient=CourseraClient()
    response=courseclient.search_course("software")
